@@ -1,0 +1,1126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<style>
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+/* HERE BE MARKDOWNS */
+
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #24292e;
+  font-family: -apple-system, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  width: 95%;
+  margin: auto;
+}
+
+ .pl-c {
+  color: #6a737d;
+}
+
+ .pl-c1,
+ .pl-s .pl-v {
+  color: #005cc5;
+}
+
+ .pl-e,
+ .pl-en {
+  color: #6f42c1;
+}
+
+ .pl-smi,
+ .pl-s .pl-s1 {
+  color: #24292e;
+}
+
+ .pl-ent {
+  color: #22863a;
+}
+
+ .pl-k {
+  color: #d73a49;
+}
+
+ .pl-s,
+ .pl-pds,
+ .pl-s .pl-pse .pl-s1,
+ .pl-sr,
+ .pl-sr .pl-cce,
+ .pl-sr .pl-sre,
+ .pl-sr .pl-sra {
+  color: #032f62;
+}
+
+ .pl-v,
+ .pl-smw {
+  color: #e36209;
+}
+
+ .pl-bu {
+  color: #b31d28;
+}
+
+ .pl-ii {
+  color: #fafbfc;
+  background-color: #b31d28;
+}
+
+ .pl-c2 {
+  color: #fafbfc;
+  background-color: #d73a49;
+}
+
+ .pl-c2::before {
+  content: "^M";
+}
+
+ .pl-sr .pl-cce {
+  font-weight: bold;
+  color: #22863a;
+}
+
+ .pl-ml {
+  color: #735c0f;
+}
+
+ .pl-mh,
+ .pl-mh .pl-en,
+ .pl-ms {
+  font-weight: bold;
+  color: #005cc5;
+}
+
+ .pl-mi {
+  font-style: italic;
+  color: #24292e;
+}
+
+ .pl-mb {
+  font-weight: bold;
+  color: #24292e;
+}
+
+ .pl-md {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+ .pl-mi1 {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+ .pl-mc {
+  color: #e36209;
+  background-color: #ffebda;
+}
+
+ .pl-mi2 {
+  color: #f6f8fa;
+  background-color: #005cc5;
+}
+
+ .pl-mdr {
+  font-weight: bold;
+  color: #6f42c1;
+}
+
+ .pl-ba {
+  color: #586069;
+}
+
+ .pl-sg {
+  color: #959da5;
+}
+
+ .pl-corl {
+  text-decoration: underline;
+  color: #032f62;
+}
+
+ .octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
+
+ a {
+  background-color: transparent;
+}
+
+ a:active,
+ a:hover {
+  outline-width: 0;
+}
+
+ strong {
+  font-weight: inherit;
+}
+
+ strong {
+  font-weight: bolder;
+}
+
+ h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+ img {
+  border-style: none;
+}
+
+ code,
+ kbd,
+ pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+ hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+ input {
+  font: inherit;
+  margin: 0;
+}
+
+ input {
+  overflow: visible;
+}
+
+ [type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ * {
+  box-sizing: border-box;
+}
+
+ input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+ a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+ a:hover {
+  text-decoration: underline;
+}
+
+ strong {
+  font-weight: 600;
+}
+
+ hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+ hr::before {
+  display: table;
+  content: "";
+}
+
+ hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+ table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+ td,
+ th {
+  padding: 0;
+}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+ h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+ h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+ h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+ h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+ h6 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+ p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ blockquote {
+  margin: 0;
+}
+
+ ul,
+ ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ ol ol,
+ ul ol {
+  list-style-type: lower-roman;
+}
+
+ ul ul ol,
+ ul ol ol,
+ ol ul ol,
+ ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+ dd {
+  margin-left: 0;
+}
+
+ code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+ pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+ .octicon {
+  vertical-align: text-bottom;
+}
+
+ .pl-0 {
+  padding-left: 0 !important;
+}
+
+ .pl-1 {
+  padding-left: 4px !important;
+}
+
+ .pl-2 {
+  padding-left: 8px !important;
+}
+
+ .pl-3 {
+  padding-left: 16px !important;
+}
+
+ .pl-4 {
+  padding-left: 24px !important;
+}
+
+ .pl-5 {
+  padding-left: 32px !important;
+}
+
+ .pl-6 {
+  padding-left: 40px !important;
+}
+
+::before {
+  display: table;
+  content: "";
+}
+
+::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+>*:first-child {
+  margin-top: 0 !important;
+}
+
+>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+ a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+ .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+ .anchor:focus {
+  outline: none;
+}
+
+ p,
+ blockquote,
+ ul,
+ ol,
+ dl,
+ table,
+ pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+ hr {
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+ blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+ blockquote>:first-child {
+  margin-top: 0;
+}
+
+ blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+ kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: solid 1px #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+ h1 .octicon-link,
+ h2 .octicon-link,
+ h3 .octicon-link,
+ h4 .octicon-link,
+ h5 .octicon-link,
+ h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+ h1:hover .anchor,
+ h2:hover .anchor,
+ h3:hover .anchor,
+ h4:hover .anchor,
+ h5:hover .anchor,
+ h6:hover .anchor {
+  text-decoration: none;
+}
+
+ h1:hover .anchor .octicon-link,
+ h2:hover .anchor .octicon-link,
+ h3:hover .anchor .octicon-link,
+ h4:hover .anchor .octicon-link,
+ h5:hover .anchor .octicon-link,
+ h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+ h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #eaecef;
+}
+
+ h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #eaecef;
+}
+
+ h3 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+ h4 {
+  font-size: 1em;
+}
+
+ h5 {
+  margin-top: 26px;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+ h6 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 0.85em;
+  color: #6a737d;
+}
+
+ ul {
+  padding-left: 2em;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #8e8e8e;
+  list-style: none;
+}
+
+ ul li p {
+  margin-bottom: 0px;
+}
+
+ ul li:before {
+  font-family: MaterialDesign;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #000;
+  content: "\e5cc";
+  display: block;
+  float: left;
+  padding-right: 5px;
+  margin-top: 2px;
+}
+
+ ol {
+  padding-left: 2em;
+  font-weight: 600;
+  color: #8e8e8e;
+  list-style: none;
+}
+
+ ol li:before {
+      font-family: MaterialDesign;
+      margin-top: 0px;
+      margin-right: 5px;
+      content: "\e5cc";
+      margin-left: -15px;
+      display: block;
+      float: left;
+      font-size: 15px;
+      color: #8e8e8e;
+}
+
+ li .list-md { font-weight: 400; }
+ li .list-md:before:hover { color: #c43e00; }
+
+ ul ul,
+ ul ol,
+ ol ol,
+ ol ul
+
+ ul ul,
+ ul ol,
+ ol ol,
+ ol ul
+
+ li { color: inherit;}
+
+ ol li div.list-md a {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+ ol li div.list-md a:before {
+    font-family: "Octicons Regular";
+    padding-top: 1px;
+    content: "\f007";
+    font-size: 15px;
+    margin-top: 0px;
+    color: #0D47A1;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+ ul li div.list-md {
+  font-size: 0.8em;
+}
+
+ ul li div.list-md a {
+  font-weight: 500;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+ div.list-md-tooltip {
+  font-weight: 400;
+  margin-left: 26px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+  display: block;
+  border-left: 1px dashed #4f83cc;
+  color: #000;
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+ div.list-md-tooltip:nth-last-child(2) {
+  padding-bottom: 15px;
+}
+
+.list-md-tooltip-last-border {
+    height: 1.5px;
+    background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #4f83cc, #fff);
+    background-size: 10px 3px, 100% 3px;
+    border: none;
+    margin-left: 26px;
+    margin-top: 0px;
+}
+
+
+ ul li div.list-md a:before {
+    font-family: "Octicons Regular";
+    content: "\f007";
+    font-size: 14px;
+    margin-top: -2px;
+    color: #0D47A1;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+ .list-md a:hover:before {
+  color: #FF6F00;
+  transition: 0.2s;
+}
+
+  .list-md:first-of-type {
+     border-top: 1px dashed #eaecef;
+     width: 400px;
+     padding-top: 5px;
+     margin-top: 5px;
+ }
+
+   .list-md:last-of-type {
+       border-bottom: 1px dashed #eaecef;
+       width: 400px;
+       padding-bottom: 5px;
+       margin-bottom: 5px;
+ }
+
+ a { color: #0D47A1; opacity: 1; transition: 0.1s; font-weight: 500;}
+ a:hover, .book-list {
+  color: #FF6F00;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+ li {
+  word-wrap: break-all;
+}
+
+ li>p {
+  margin-top: 16px;
+}
+
+ li+li {
+  margin-top: 0.25em;
+}
+
+ dl {
+  padding: 0;
+}
+
+ dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+ dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+ table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+ table th {
+  font-weight: 600;
+}
+
+ table th,
+ table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+ table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+ table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+ img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+ img[align=right] {
+  padding-left: 20px;
+}
+
+ img[align=left] {
+  padding-right: 20px;
+}
+
+ code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px;
+}
+
+ pre {
+  word-wrap: normal;
+}
+
+ pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+ .highlight {
+  margin-bottom: 16px;
+}
+
+ .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+ .highlight pre,
+ pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+ pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+ .full-commit .btn-outline:not(:disabled):hover {
+  color: #005cc5;
+  border-color: #005cc5;
+}
+
+ kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: solid 1px #d1d5da;
+  border-bottom-color: #c6cbd1;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #c6cbd1;
+}
+
+ :checked+.radio-label {
+  position: relative;
+  z-index: 1;
+  border-color: #0366d6;
+}
+
+ .task-list-item {
+  list-style-type: none;
+}
+
+ .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+ .task-list-item input {
+  margin: 0 0.2em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+ hr {
+  border-bottom-color: #eee;
+  clear: both;
+}
+	
+</style>
+<body>
+	<h1 id="morebackgroundinformation">More Background Information</h1>
+
+<p>by: Spherikal</p>
+
+<h3 id="tableofcontents">Table of Contents</h3>
+
+<ol>
+<li><a href="#the-hollowborn-crisis">The Hollowborn Crisis</a>
+<div class="list-md"> <a href="#the-fate-of-the-souls">The Fate of the Souls</a></div>
+<div class="list-md"> <a href="#my-pledge-to-the-gods">My Pledge to the Gods</a></div>
+<div class="list-md"> <a href="#the-fate-of-thaos-ix-arkannons-souls">The fate of Thaos ix Arkannon's Souls</a></div>
+<div class="list-md"> <a href="#example2">Maerwald's Fate</a></div>
+<div class="list-md"> <a href="#example2">Establish My Stance at the Animancy Trial</a></div>
+<div class="list-md"> <a href="#example2">Defiance Bay Faction Support</a></div></li>
+
+<li><a href="#third-example">Companions</a>
+<div class="list-md"> <a href="#the-fate-of-the-souls">The Fate of the Souls</a></div></li>
+
+<li><a href="#third-example">The White March</a></li>
+
+<li><a href="#third-example">The Gilded Vale and Raedric's Hold</a></li>
+
+<li><a href="#third-example">The Endless Paths of Od Nua</a></li>
+
+<li><a href="#third-example">Defiance Bay</a></li>
+
+<li><a href="#third-example">Twin Elms</a></li>
+</ol>
+
+<h2 id="thehollowborncrisis">The Hollowborn Crisis</h2>
+
+<p><img style="float:right; width: 300px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px;"  src="images/slides/bestiary_wicht.png"><strong>In 2823 AI</strong>, the influence of Waidwen's Legacy and the resulting waves of refugees stretched Dyrwood to the breaking point. Fifteen years of hollowing denied the Free Palatinate an entire generation of laborers, soldiers, artists, and thinkers, leaving only desolation in its wake.</p>
+
+<p>Responding to great sociopolitical pressure to try and help the Hollowborn, animancers developed a process to transplant animal souls into the infants, that they might develop survival instincts and even a basic personality. The process seemed successful, so it was repeated on tens of thousands of Hollowborn. The process was named "Salvation" and the Hollowborn given souls this way were called the "Saved."</p>
+
+<p>Five years after the first Hollowborn - an orlan girl - was saved, she entered puberty. In a matter of mere weeks, she transformed into a ravenous, feral creature devoid of all conscience. Soon, all of the Saved would experience the same fate. Each one, upon reaching puberty, would transform into what the locals called ‘Wichts’ (uncontrollable children).</p>
+
+<p><strong>"Which events of the Hollowborn Crisis do you wish to establish?</strong></p>
+
+<ul>
+<li><a href="#example">The Fate of the Souls</a>
+<div class="list-md"> <a href="#example">I returned the souls to their intended bodies</a></div>
+<div class="list-md"> <a href="#example">I sent the souls back to the Wheel</a></div>
+<div class="list-md"> <a href="#example">I disintegrated the Souls</a></div>
+<div class="list-md"> <a href="#example">I distributed the soul essence to the Dyrwood</a></div>
+<div class="list-md"> <a href="#example">I devoted the souls to Woedica</a></div>
+<div class="list-md"> <a href="#example">I dispersed the souls randomly</a></div></li>
+
+<li><a href="#my-pledge-to-the-gods">My Pledge to the Gods</a></li>
+</ul>
+
+<div class="list-md"> [Berath](#example)</div>
+
+<div class="list-md"> [Hylea](#example)</div>
+
+<div class="list-md"> [Galawain](#example)</div>
+
+<div class="list-md"> [Rymrgand](#example)</div>
+
+<div class="list-md"> [I pledged to two Gods](#example)</div>
+
+<div class="list-md"> [I pledged to three Gods](#example)</div>
+
+<div class="list-md"> [All of them](#example)</div>
+
+<div class="list-md"> [None of them](#example)</div>
+
+<ul>
+<li><a href="#the-fate-of-thaos-ix-arkannons-souls">The fate of Thaos ix Arkannon's Souls</a></li>
+</ul>
+
+<div class="list-md"> [I returned his soul to the Wheel](#example)</div>
+
+<div class="list-md"> [I destroyed his souls](#example)</div>
+
+<div class="list-md"> [I banished his soul to Beith Eaman for all eternity](#example)</div>
+
+<div class="list-md"> [I erased his memories](#example)</div>
+
+<ul>
+<li><a href="#example2">Maerwald's Fate</a></li>
+</ul>
+
+<div class="list-md"> [I released his soul to the Wheel](#example)</div>
+
+<div class="list-md"> [I bound his soul to Caed Nua as a warden](#example)</div>
+
+<div class="list-md"> [I absorbed his soul for his knowledge](#example)</div>
+
+<ul>
+<li><a href="#example2">Establish My Stance at the Animancy Trial</a></li>
+</ul>
+
+<div class="list-md"> [Animancy should continue in the Dyrwood](#example)</div>
+
+<div class="list-md"> [Anymancy should be outlawed in the Dyrwood](#example)</div>
+
+<ul>
+<li><a href="#example2">Defiance Bay Faction Support</a></li>
+</ul>
+
+<div class="list-md"> [I supported the Crucible Knights](#example)</div>
+
+<div class="list-md"> [I supported the Dozens](#example)</div>
+
+<div class="list-md"> [I supported the Doemenels](#example)</div>
+
+<div class="list-md"> [None - I made enemies of all of them](#example)</div>
+
+<h3 id="thefateofthesouls">The Fate of the Souls</h3>
+
+<p><img style="width: 50%; float:right; padding-bottom: 20px; padding-left: 20px;"  src="images/slides/TheHollowBornCrisis_1_2.png"></p>
+
+<p>You come out in the room you are standing in now, but it is new and pristine and filled with people - thousands of them, all turned towards the great adra pillar and the machine that encases it.</p>
+
+<p>Thaos stands at the machine, and you are one with him now. You look out at the crowd, at faces of shriveled old men and cherub-cheeked little girls, at mothers bouncing infants to quiet them and fathers clasping their children's restless hands and watching you with somber acceptance. A woman with tears in her eyes gives you a small nod.</p>
+
+<p>You turn back toward the machine, your breaths constricted beneath the weight of unwanted knowledge, preparing yourself to set out alone on a journey without end. You close your eyes and open them again to find the machine still in front of you, beckoning.</p>
+
+<p>You take your place in front of it and place your hands upon a large mechanical disc at the base of the great crystal column and speak a single word. Giant rings creak to life, building speed, setting arrays of carved draconic mouths aglow and sending tremors through the platform beneath you.</p>
+
+<p>The entire room shakes now with the force of the accelerating machine, all sound drowned out by its deep, deafening thrum. Brilliant tendrils of light arc outward from the pillar in all directions, and you look over your shoulder to see them engulfing the crowd, burning them brightly like hot iron.</p>
+
+<p>One by one, the tendrils disappear, leaving ashen effigies where people once stood, many of them disintegrating into gray heaps under the stress of the tremors.</p>
+
+<p>You look above to the adra pillar, and a glowing spherical mass has begun to coalesce atop the column where the arcs converge. It grows and pulses, translucent and bulbous like some immense chrysalis, suspended in slow rotation as though it were being spun from the arcs of light.</p>
+
+<p>When the last arc disappears, the spectral mass hangs a moment, no longer rotating, so bright you must shield your eyes with an outstretched hand, and it seems to you as though it is looking at you.</p>
+
+<p>You bow your head in acknowledgment, and look back up to see it melt into the pillar like warm candle wax. The pillar flares with a flash of light bright as the sun itself, then fades to darkness.</p>
+
+<p>The machine slows down to an abrupt halt, and when the last echo of its grinding cogs has passed, the chamber is still, and you are alone.</p>
+
+<p><strong>"What happened to the souls?"</strong></p>
+
+<ul>
+<li><a href="#example">The Fate of the Souls</a></li>
+</ul>
+
+  <div class="list-md"> [I returned the souls to their intended bodies](#example) (Hylea's choice)</div>
+
+<pre><code>&lt;div class="list-md-tooltip"&gt;At your direction, the souls diverted by Thaos were guided back to the vessels originally meant for them. For the first time, parents of Hollowborn children woke to the cries of their infants, and looked into their eyes to see them staring back. People fell to their knees where they stood, thanking Hylea or Magran, or even Eothas for their forgiveness of whatever guilt they felt they bore.
+&lt;br&gt;&lt;br&gt;
+But for all the relief that had come to some parents, others only found new grief, for many thousands of Hollowborn had died during Waidwen's Legacy, many by their parents' own hands. For those children there would be no homecoming.
+&lt;br&gt;&lt;br&gt;
+Yet the last Hollow birth was in the past now, and those parents willing to risk trying for a new child were frequently rewarded, often with twins. Many felt they saw Hylea's hand in it, and the year would be remembered as the Year of Hylea's Splendor.&lt;/div&gt;
+</code></pre>
+
+  <div class="list-md"> [I sent the souls back to the Wheel](#example) (Berath's choice)</div>
+
+<pre><code>&lt;div class="list-md-tooltip"&gt;At your direction, the lost souls of the Hollowborn were funneled back into the churn of Berath's Wheel, to find their way into new vessels and partake in the life they had been denied during Waidwen's Legacy.
+&lt;br&gt;&lt;br&gt;
+Though parents of Hollowborn would remain just that, the end of Waiwen's Legacy would bring about a spate of new, healthy births, with many of the infants bearing souls once meant for Hollowborn children. The natural cycle of life and death had been restored to Dyrwood, and with it came a renewed faith in the providence of the gods.&lt;/div&gt;
+</code></pre>
+
+  <div class="list-md"> [I disintegrated the Souls](#example) (Rymrgand's choice)</div>
+
+<pre><code>&lt;div class="list-md-tooltip"&gt;At your direction, the thousands of souls gathered at the machine in Sun in Shadow were disintegrated, their essence scattered to the winds like a lifting fog, never again to find its way into the body of a living being.
+&lt;br&gt;&lt;br&gt;
+Though none in Dyrwood would ever know for certain what had become of the missing souls, many followers of the Beast of Winter were given visions of a mass exodus to a land of eternal peace. Solemn celebrations were held the following day among his faithful.
+&lt;br&gt;&lt;br&gt;
+The last Hollow birth in Dyrwood was already in the past, and a new peace of mind had come not just to the lost souls of the Hollowborn, but to all the people of Dyrwood.&lt;/div&gt;
+</code></pre>
+
+  <div class="list-md"> [I distributed the soul essence to the Dyrwood](#example) (Galawain's choice)</div>
+
+<pre><code>&lt;div class="list-md-tooltip"&gt;At your direction, the essence gathered in Sun in Shadow was sent across Dyrwood to meld with and galvanize the souls of its people. In the days that followed, Dyrwoodans confronting adversity and expecting to be at the mercy of their own weakness instead found strength and the will to persevere. The aggrieved found themselves able to carry on after their losses. The desperate found new reasons to live.
+&lt;br&gt;&lt;br&gt;
+And the new reasons to hope were many, for Waidwen's Legacy had come to an end after fifteen years. Hollow births ceased in Dyrwood and a country that only days ago had seemed on the brink of collapse was suddenly on the path to a recovery - a fitter, more resilient country in the preferred image of the god of the hunt.&lt;/div&gt;
+</code></pre>
+
+  <div class="list-md"> [I devoted the souls to Woedica](#example) (Skaen's choice)</div>
+
+<pre><code>&lt;div class="list-md-tooltip"&gt;
+At your direction, the goddess Woedica ultimately received the empowerment she had sought, albeit not in the manner she had expected. The swirling souls held captive in Sun in Shadow were swept into the great adra pillar there, sent barreling down through the world's veins to places unknown to mortal sight.
+&lt;br&gt;&lt;br&gt;
+Though no word would reach your ears of their arrival, by the time you had returned to Twin Elms, word had spread of a miracle on their Burial Isle, and pious Glanfathans were already streaming in from all over to observe the statue of Woedica there, its once-broken crown now fully restored.
+&lt;br&gt;&lt;br&gt;
+But for Dyrwood itself, the last Hollow birth had come and gone, and the country celebrated the lifting of Waidwen's Legacy none the wiser as to what future costs its end might hold.
+&lt;/div&gt;
+</code></pre>
+
+  <div class="list-md"> [I dispersed the souls randomly](#example) (Wael's choice)</div>
+
+<pre><code>&lt;div class="list-md-tooltip"&gt;
+At your direction, the souls of the Hollowborn, long lost to the people of Dyrwood, were sent to a place or places unknown for reasons as mysterious as the god who suggested it. No sooner had the mystery of their whereabouts been solved than it was renewed - a new riddle for someone yet to be revealed, or perhaps for no one at all.
+&lt;br&gt;&lt;br&gt;
+For the people of Dyrwood, the question would linger as it always had, for even the truth was beyond belief. One day the Hollow births had stopped with as little explanation as they had started. For all their joy at the Legacy's end, Dyrwoodans would have to content themselves with their own theories as to the how and why of it all. But perhaps this was as Wael intended.
+&lt;/div&gt;
+
+&lt;div class="list-md-tooltip-last-border"&gt;&lt;/div&gt;
+</code></pre>
+
+<h3 id="mypledgetothegods">My Pledge to the Gods</h3>
+
+<p>The delemgan of Elms' Reach, told the Watcher that Thaos has destroyed the route from Teir Evron to Breith Eaman. To reach him, they will have to descend through the pit in the Burial Isle. The gods are willing to offer great power in exchange for a promise to deal with the stolen souls in the manner of their choosing. There would, however, be a price for betrayal.</p>
+
+<p>Deity | Promise
+--- | ---
+Galawain | Distribute essence to existing souls in Dyrwood to strengthen them.
+Hylea | Return souls to the bodies they were intended for.
+Berath | Send souls back into the reincarnation cycle.
+Rymrgand | Entropically disintegrate the souls, ending their existence.</p>
+
+<h5 id="galawaingoesonthehunt">Galawain goes on the hunt</h5>
+
+<h6 id="renegeonyouragreementwithgalawain">Renege on your agreement with Galawain</h6>
+
+<p><img style="width: 50%; max-width: 592px; float:right; padding-bottom: 20px; padding-left: 20px;"  src="images/slides/Galawain.png">It is said that Galawain is the enforcer of the gods, and is known to hunt down those who wrong them. To wrong Galawain, then, is truly to wake the beast, and the Father of Monsters took great umbrage at your broken promise to him. Along with Magran and Abydon, Galawain embarked upon a more direct approach to claiming his quarry.</p>
+
+<p>In the months that followed, the frontier settlements of Dyrwood were inexplicably attacked by packs of beasts and monsters, suddenly organised and unafraid to approach kith on their own land. Many such villages were all but destroyed by the time troops could be dispatched from local garrisons.</p>
+
+<p>Those that weren't destroyed by the beasts of Galawain often found themselves at the mercy of the fires of Magran. A dry spell throughout Dyrwood led to a rash of forest fires on a scale not seen since the War of Black Trees, and many settlements paid the price for their proximity to the wilderness.</p>
+
+<p>In the cities, meanwhile, dabblers in animancy who had placed the souls into golems and other moving vessels soon found that their creations had risen up against them. Such constructs terrorised their surroundings, killing indiscriminately and often in great numbers before being subdued.</p>
+
+<hr />
+
+<h5 id="hyleaisinfuriatedmakesatradewithberathtoscourgedyrwood">Hylea is infuriated, makes a trade with Berath to scourge Dyrwood</h5>
+
+<h6 id="renegeonyouragreementwithhylea">Renege on your agreement with Hylea</h6>
+
+<p><img style="width: 50%; max-width: 592px; float:left; padding-bottom: 20px; padding-right: 20px;"  src="images/slides/Hylea.png">Hylea, who had expected the souls to be returned to the Hollowborn, was infuriated by your duplicity. The goddess of motherhood demanded new births in compensation, and made a bargain with Berath to trade death for new life.</p>
+
+<p>The skies of Dyrwood darkened, blotted with swarms of birds and other winged creatures called together to claim what the Sky-mother believed to be hers by right. For months, the people of Dyrwood were forced to stay under shelter for fear of the vicious, unexplained attacks from the sky. The incidents left entire villages decimated and littered the streets of Defiance Bay with corpses covered in a thousand puncture wounds.</p>
+
+<hr />
+
+<h5 id="berathevensthescorewithanepidemicofdeaths">Berath evens the score with an epidemic of deaths</h5>
+
+<h6 id="renegeonyouragreementwithberath">Renege on your agreement with Berath</h6>
+
+<p><img style="width: 50%; max-width: 592px; float:right; padding-bottom: 20px; padding-left: 20px;"  src="images/slides/Berath.png">Followers of Berath have a saying that life is a debt all must pay in death, and their god is known to always collect what is owed. In breaking your word to Berath, a debt was created - souls were owed to the Cycle - and the agents of the god of inevitability would not be refused.</p>
+
+<p>An epidemic of unexplained deaths struck Dyrwood in the days that followed the Legacy. Most often the dead would be travelers on the road, known to be a favorite target of Bareth's Pallid Knight, who exacts impossible tolls from those who have journeyed for too long. The elderly, too, seemed to pass on in alarming numbers. But just as often the deaths appeared to strike randomly and for no reason at all.</p>
+
+<p>Those who sensed the involvement of the Twinned God dubbed the calamity "Berath's Price," supposing it a payment for the end of Waidwen's Legacy.</p>
+
+<hr />
+
+<h5 id="rymrgandandondrataketheirdueanyway">Rymrgand and Ondra take their due anyway</h5>
+
+<h6 id="renegeonyouragreementwithrymrgand">Renege on your agreement with Rymrgand</h6>
+
+<p><img style="width: 50%; max-width: 592px; float:left; padding-bottom: 20px; padding-right: 20px;"  src="images/slides/Rymrgand.png">The loss of the souls you had promised to entropy would be no setback to Rymrgand, nor to Ondra, for the Beast of Winter trudges ever forward, and the will of the Lady of Lament is as unstoppable as the tide. In Dyrwood, the weather quickly chilled. Unseasonable frosts destroyed the year's harvests before giving way to the coldest winter in memory. Many who survived the famine would soon freeze to death in their own homes.</p>
+
+<p>The oceans proved no safer. A barrage of squalls pounded the harbors along the Dyrwoodan coast for months, sending many ships to be forever lost in the depths of Ondra's domain, either mourned or forgotten- both to the Lady's liking.</p>
+
+<hr />
+
+<h5 id="skaensendstheeffigyasvengeance">Skaen sends the effigy as vengeance</h5>
+
+<h6 id="renegeonyouragreementwithskaen">Renege on your agreement with Skaen</h6>
+
+<p><img style="width: 50%; max-width: 592px; float:right; padding-bottom: 20px; padding-left: 20px;"  src="images/slides/Skaen.png">Skaen did not take lightly the insult of being lied to about the destination of the souls of the Hollowborn. Feeling that an act of defiance was warranted against all of Dyrwood for daring to reclaim its souls from his queen, Skaen wasted no time in compelling his followers to summon an incarnation of the Effigy into the world to take revenge, something that had not happened for more than a century, and never at the god's own request.</p>
+
+<p>In the heart of the bustling city of New Heomar, Skaenites maimed and disfigured one of their own number, removing eyes, hair, nose, and genitals, carving the body bloody and replacing its eyes with black stones. The chosen vessel was given blood to drink - not of a noble, as the ritual ordinarily called for - but a dozen ordinary Drywoodans. The incarnation of the Effigy born into that body was as brutal as any in recorded history, tirelessly slaying hundreds and ritualistically maiming their bodies before falling dead, satisfied.</p>
+
+</body>
+</html>
