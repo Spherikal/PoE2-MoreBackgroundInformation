@@ -19,7 +19,7 @@ by: Spherikal
 
 ## The Hollowborn Crisis
 
-<img align="left" vspace="20" hspace="20" width="50%" src="images/slides/bestiary_wicht.png">**In 2823 AI**, the influence of Waidwen's Legacy and the resulting waves of refugees stretched Dyrwood to the breaking point. Fifteen years of hollowing denied the Free Palatinate an entire generation of laborers, soldiers, artists, and thinkers, leaving only desolation in its wake.
+<img align="left" vspace="20" hspace="20" width="27%" src="images/slides/bestiary_wicht.png">**In 2823 AI**, the influence of Waidwen's Legacy and the resulting waves of refugees stretched Dyrwood to the breaking point. Fifteen years of hollowing denied the Free Palatinate an entire generation of laborers, soldiers, artists, and thinkers, leaving only desolation in its wake.
 
 Responding to great sociopolitical pressure to try and help the Hollowborn, animancers developed a process to transplant animal souls into the infants, that they might develop survival instincts and even a basic personality. The process seemed successful, so it was repeated on tens of thousands of Hollowborn. The process was named "Salvation" and the Hollowborn given souls this way were called the "Saved."
 
@@ -66,7 +66,7 @@ Five years after the first Hollowborn - an orlan girl - was saved, she entered p
 
 ### The Fate of the Souls
 
-<img align="right" width="50%" hspace="20px" vspace="20px" src="images/slides/TheHollowBornCrisis_1_2.png">
+<img align="right" width="27%" hspace="20px" vspace="20px" src="images/slides/TheHollowbornCrisis_1_2.png">
 
 You come out in the room you are standing in now, but it is new and pristine and filled with people - thousands of them, all turned towards the great adra pillar and the machine that encases it.
 
