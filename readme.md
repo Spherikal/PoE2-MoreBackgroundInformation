@@ -88,10 +88,9 @@ You bow your head in acknowledgment, and look back up to see it melt into the pi
 
 The machine slows down to an abrupt halt, and when the last echo of its grinding cogs has passed, the chamber is still, and you are alone.
 
-**"What happened to the souls?"**
-- [The Fate of the Souls](#example)
+### "What happened to the souls?"
 
-[I returned the souls to their intended bodies](#example) (Hylea's choice)
+#### I returned the souls to their intended bodies (Hylea's choice)
 
 At your direction, the souls diverted by Thaos were guided back to the vessels originally meant for them. For the first time, parents of Hollowborn children woke to the cries of their infants, and looked into their eyes to see them staring back. People fell to their knees where they stood, thanking Hylea or Magran, or even Eothas for their forgiveness of whatever guilt they felt they bore.
     
@@ -99,13 +98,13 @@ But for all the relief that had come to some parents, others only found new grie
     
 Yet the last Hollow birth was in the past now, and those parents willing to risk trying for a new child were frequently rewarded, often with twins. Many felt they saw Hylea's hand in it, and the year would be remembered as the Year of Hylea's Splendor.
 
-[I sent the souls back to the Wheel](#example) (Berath's choice)
+#### I sent the souls back to the Wheel (Berath's choice)
 
 At your direction, the lost souls of the Hollowborn were funneled back into the churn of Berath's Wheel, to find their way into new vessels and partake in the life they had been denied during Waidwen's Legacy.
     
 Though parents of Hollowborn would remain just that, the end of Waiwen's Legacy would bring about a spate of new, healthy births, with many of the infants bearing souls once meant for Hollowborn children. The natural cycle of life and death had been restored to Dyrwood, and with it came a renewed faith in the providence of the gods.
 
-[I disintegrated the Souls](#example) (Rymrgand's choice)
+#### I disintegrated the Souls (Rymrgand's choice)
 
 At your direction, the thousands of souls gathered at the machine in Sun in Shadow were disintegrated, their essence scattered to the winds like a lifting fog, never again to find its way into the body of a living being.
 
@@ -113,13 +112,13 @@ Though none in Dyrwood would ever know for certain what had become of the missin
     
 The last Hollow birth in Dyrwood was already in the past, and a new peace of mind had come not just to the lost souls of the Hollowborn, but to all the people of Dyrwood.
 
-[I distributed the soul essence to the Dyrwood](#example) (Galawain's choice)
+#### I distributed the soul essence to the Dyrwood (Galawain's choice)
 
 At your direction, the essence gathered in Sun in Shadow was sent across Dyrwood to meld with and galvanize the souls of its people. In the days that followed, Dyrwoodans confronting adversity and expecting to be at the mercy of their own weakness instead found strength and the will to persevere. The aggrieved found themselves able to carry on after their losses. The desperate found new reasons to live.
     
 And the new reasons to hope were many, for Waidwen's Legacy had come to an end after fifteen years. Hollow births ceased in Dyrwood and a country that only days ago had seemed on the brink of collapse was suddenly on the path to a recovery - a fitter, more resilient country in the preferred image of the god of the hunt.
 
-[I devoted the souls to Woedica](#example) (Skaen's choice)
+#### I devoted the souls to Woedica (Skaen's choice)
     
 At your direction, the goddess Woedica ultimately received the empowerment she had sought, albeit not in the manner she had expected. The swirling souls held captive in Sun in Shadow were swept into the great adra pillar there, sent barreling down through the world's veins to places unknown to mortal sight.
 
@@ -127,7 +126,7 @@ Though no word would reach your ears of their arrival, by the time you had retur
 
 But for Dyrwood itself, the last Hollow birth had come and gone, and the country celebrated the lifting of Waidwen's Legacy none the wiser as to what future costs its end might hold.
     
-[I dispersed the souls randomly](#example) (Wael's choice)
+#### I dispersed the souls randomly (Wael's choice)
 
 At your direction, the souls of the Hollowborn, long lost to the people of Dyrwood, were sent to a place or places unknown for reasons as mysterious as the god who suggested it. No sooner had the mystery of their whereabouts been solved than it was renewed - a new riddle for someone yet to be revealed, or perhaps for no one at all.
         
@@ -144,7 +143,7 @@ Hylea | Return souls to the bodies they were intended for.
 Berath | Send souls back into the reincarnation cycle.
 Rymrgand | Entropically disintegrate the souls, ending their existence.
 
-##### Galawain goes on the hunt
+#####  Galawain goes on the hunt
 
 ###### Renege on your agreement with Galawain
 
