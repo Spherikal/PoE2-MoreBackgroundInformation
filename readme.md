@@ -148,7 +148,7 @@ Rymrgand | Entropically disintegrate the souls, ending their existence.
 
 ###### Renege on your agreement with Galawain
 
-<img align="right" width="50%" hspace="20px" vspace="20px" src="images/slides/Galawain.png">It is said that Galawain is the enforcer of the gods, and is known to hunt down those who wrong them. To wrong Galawain, then, is truly to wake the beast, and the Father of Monsters took great umbrage at your broken promise to him. Along with Magran and Abydon, Galawain embarked upon a more direct approach to claiming his quarry.
+<img align="right" width="25%" hspace="20px" vspace="20px" src="images/slides/Galawain.png">It is said that Galawain is the enforcer of the gods, and is known to hunt down those who wrong them. To wrong Galawain, then, is truly to wake the beast, and the Father of Monsters took great umbrage at your broken promise to him. Along with Magran and Abydon, Galawain embarked upon a more direct approach to claiming his quarry.
 
 In the months that followed, the frontier settlements of Dyrwood were inexplicably attacked by packs of beasts and monsters, suddenly organised and unafraid to approach kith on their own land. Many such villages were all but destroyed by the time troops could be dispatched from local garrisons.
 
@@ -162,7 +162,7 @@ In the cities, meanwhile, dabblers in animancy who had placed the souls into gol
 
 ###### Renege on your agreement with Hylea
 
-<img align="right" width="50%" hspace="20px" vspace="20px" src="images/slides/Hylea.png">Hylea, who had expected the souls to be returned to the Hollowborn, was infuriated by your duplicity. The goddess of motherhood demanded new births in compensation, and made a bargain with Berath to trade death for new life.
+<img align="right" width="25%" hspace="20px" vspace="20px" src="images/slides/Hylea.png">Hylea, who had expected the souls to be returned to the Hollowborn, was infuriated by your duplicity. The goddess of motherhood demanded new births in compensation, and made a bargain with Berath to trade death for new life.
 
 The skies of Dyrwood darkened, blotted with swarms of birds and other winged creatures called together to claim what the Sky-mother believed to be hers by right. For months, the people of Dyrwood were forced to stay under shelter for fear of the vicious, unexplained attacks from the sky. The incidents left entire villages decimated and littered the streets of Defiance Bay with corpses covered in a thousand puncture wounds.
 
@@ -172,7 +172,7 @@ The skies of Dyrwood darkened, blotted with swarms of birds and other winged cre
 
 ###### Renege on your agreement with Berath
 
-<img align="right" width="50%" hspace="20px" vspace="20px" src="images/slides/Berath.png">Followers of Berath have a saying that life is a debt all must pay in death, and their god is known to always collect what is owed. In breaking your word to Berath, a debt was created - souls were owed to the Cycle - and the agents of the god of inevitability would not be refused.
+<img align="right" width="25%" hspace="20px" vspace="20px" src="images/slides/Berath.png">Followers of Berath have a saying that life is a debt all must pay in death, and their god is known to always collect what is owed. In breaking your word to Berath, a debt was created - souls were owed to the Cycle - and the agents of the god of inevitability would not be refused.
 
 An epidemic of unexplained deaths struck Dyrwood in the days that followed the Legacy. Most often the dead would be travelers on the road, known to be a favorite target of Bareth's Pallid Knight, who exacts impossible tolls from those who have journeyed for too long. The elderly, too, seemed to pass on in alarming numbers. But just as often the deaths appeared to strike randomly and for no reason at all.
 
@@ -184,7 +184,7 @@ Those who sensed the involvement of the Twinned God dubbed the calamity "Berath'
 
 ###### Renege on your agreement with Rymrgand
 
-<img align="right" width="50%" hspace="20px" vspace="20px" src="images/slides/Rymrgand.png">The loss of the souls you had promised to entropy would be no setback to Rymrgand, nor to Ondra, for the Beast of Winter trudges ever forward, and the will of the Lady of Lament is as unstoppable as the tide. In Dyrwood, the weather quickly chilled. Unseasonable frosts destroyed the year's harvests before giving way to the coldest winter in memory. Many who survived the famine would soon freeze to death in their own homes.
+<img align="right" width="25%" hspace="20px" vspace="20px" src="images/slides/Rymrgand.png">The loss of the souls you had promised to entropy would be no setback to Rymrgand, nor to Ondra, for the Beast of Winter trudges ever forward, and the will of the Lady of Lament is as unstoppable as the tide. In Dyrwood, the weather quickly chilled. Unseasonable frosts destroyed the year's harvests before giving way to the coldest winter in memory. Many who survived the famine would soon freeze to death in their own homes.
 
 The oceans proved no safer. A barrage of squalls pounded the harbors along the Dyrwoodan coast for months, sending many ships to be forever lost in the depths of Ondra's domain, either mourned or forgotten- both to the Lady's liking.
 
@@ -194,6 +194,6 @@ The oceans proved no safer. A barrage of squalls pounded the harbors along the D
 
 ###### Renege on your agreement with Skaen
 
-<img align="right" width="50%" hspace="20px" vspace="20px" src="images/slides/Skaen.png">Skaen did not take lightly the insult of being lied to about the destination of the souls of the Hollowborn. Feeling that an act of defiance was warranted against all of Dyrwood for daring to reclaim its souls from his queen, Skaen wasted no time in compelling his followers to summon an incarnation of the Effigy into the world to take revenge, something that had not happened for more than a century, and never at the god's own request.
+<img align="right" width="25%" hspace="20px" vspace="20px" src="images/slides/Skaen.png">Skaen did not take lightly the insult of being lied to about the destination of the souls of the Hollowborn. Feeling that an act of defiance was warranted against all of Dyrwood for daring to reclaim its souls from his queen, Skaen wasted no time in compelling his followers to summon an incarnation of the Effigy into the world to take revenge, something that had not happened for more than a century, and never at the god's own request.
 
 In the heart of the bustling city of New Heomar, Skaenites maimed and disfigured one of their own number, removing eyes, hair, nose, and genitals, carving the body bloody and replacing its eyes with black stones. The chosen vessel was given blood to drink - not of a noble, as the ritual ordinarily called for - but a dozen ordinary Drywoodans. The incarnation of the Effigy born into that body was as brutal as any in recorded history, tirelessly slaying hundreds and ritualistically maiming their bodies before falling dead, satisfied.
