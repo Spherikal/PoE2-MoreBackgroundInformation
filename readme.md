@@ -23,7 +23,7 @@ by: Spherikal
 
 Responding to great sociopolitical pressure to try and help the Hollowborn, animancers developed a process to transplant animal souls into the infants, that they might develop survival instincts and even a basic personality. The process seemed successful, so it was repeated on tens of thousands of Hollowborn. The process was named "Salvation" and the Hollowborn given souls this way were called the "Saved."
 
-Five years later the first Hollowborn entered puberty. In a matter of mere weeks, she transformed into a ravenous, feral creature devoid of all conscience. Soon, all of the Saved would experience the same fate. Each one, upon reaching puberty, would transform into what the locals called ‘Wichts’ (uncontrollable children).
+The first to be “saved” was an Orlan girl, whom five years after her supposed salvation the girl entered puberty. In a matter of mere weeks, she transformed into a ravenous, feral creature devoid of all conscience. Soon, all of the Saved would experience the same fate. Each one, upon reaching puberty, would transform into what the locals called ‘Wichts’ (uncontrollable children).
 
 ***
 
